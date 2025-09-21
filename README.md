@@ -1,0 +1,68 @@
+# Discord Movie Bot Tracker
+**MovieBot** is a lightweight Discord bot designed to help you manage your movie queue with flair, sarcasm, and just a little bit of robotic superiority. 
+Run it on your own server to track what you want to watch, what you've already seen, and to let chaos decide your next movie night.
+_The bot identifies itself as **Crow T. Robot**, your mechanical movie guide with more sass than RAM._
+---
+
+## Features
+- Add movies to your queue or watched list
+- List currently queued or watched movies
+- Remove or permanently delete entries
+- Let Crow choose a random movie for you
+- Get help with a built-in Crow-flavored guide
+---
+
+## Commands
+Comands can be ran within the Discord channel that Crow has been given access to.
+
+- !que:<movie name> – Add a movie to the list.
+- !list – Prints out your collection of unwatched films.
+- !watched – Prints out your collection of watched films.
+- !remove:<movie name> – Removes a movie from the list. !finished does the same thing.
+- !del:<movie name> – Removes a movie from the watch list without moving it into "watched"
+- !random – Randomly selects a movie from the watch list.
+- !help – Displays a help message with these commands but in the style of Crow T. Robot
+
+## Getting Started
+1. Clone this repository
+
+2. Set up your environment (e.g., python -m venv, install dependencies)
+
+3. Add your Discord token in an .ini config file
+
+4. Run the bot using your preferred process manager (e.g., screen, systemd, etc.)
+
+**Note**: Version 1 of was built to be ran on a 32 bit Raspberry Pi 4. In a future update the code base will be adjusted to run on
+a 64 bit hardware. This will also allow for the use of Python libraries such as Pandas.
+
+## Roadmap
+[ ] Update how the bot watches for a message event.
+[ ] Rewrite for 64-bit hardware. Dependency is on my equipment upgrades.
+[ ] Make movie que management (adding, removing, deleteing, etc etc) a little bit easier.
+[ ] Stretch goal: Have the bot download information about a given movie in the list, and create a sarcastic spoiler free review
+of the movie. This "review" would be very brief and it would appear when `!random` is used, just to give the bot a bit more personality.
+
+## License
+
+MIT License
+
+Copyright (c) 2025 Tanvir Saini
+
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE.
+
