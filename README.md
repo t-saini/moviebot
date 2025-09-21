@@ -1,8 +1,9 @@
 # Crow T. Robot The Discord Movie Bot Tracker
+
 A lightweight Discord bot designed to help you manage your movie queue with flair, sarcasm, and just a little bit of robotic superiority. 
 Run it on your own server to track what you want to watch, what you've already seen, and to let chaos decide your next movie night.
 _The bot identifies itself as **Crow T. Robot**, your mechanical movie guide with more sass than RAM._
----
+
 
 ## Features
 - Add movies to your queue or watched list
